@@ -4,9 +4,9 @@ import time
 import numpy as np
 
 os.system('sudo ntpdate 0.es.pool.ntp.org')
-UDP_IP = '127.0.0.1'
-UDP_PORT = 5681
-UDP_PORT2 = 5682
+UDP_IP = '239.0.0.1'
+UDP_PORT = 1234
+UDP_PORT2 = 1235
 print ("Preparado para recibir datos")
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock2 = socket.socket (socket.AF_INET, socket.SOCK_DGRAM)

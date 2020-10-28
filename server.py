@@ -11,9 +11,9 @@ import sys
 import time
 import os
 
-UDP_IP = "127.0.0.1"
-UDP_PORT = 5681 
-UDP_PORT2 = 5682
+UDP_IP = "239.0.0.1"
+UDP_PORT = 1234 
+UDP_PORT2 = 1235
 os.system("sudo ntpdate 0.es.pool.ntp.org")
 rec = 0
 def autoIncremenet():
